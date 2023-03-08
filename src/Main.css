@@ -1,0 +1,51 @@
+.container{
+    margin-top: 20px;
+    margin-right:1%;
+    width: 450px;
+    height: 450px;
+    border-radius: 2%;
+    padding: 1%;
+    color: Black;
+    background-color: rgb(230, 233, 235); 
+   
+    box-shadow: inset;
+    opacity: 0.8;     
+    
+}
+.row{
+    color:black;
+    font-size: larger;
+    font-family:cursive;
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+}
+
+body{
+     background-image: url("https://tse4.mm.bing.net/th?id=OIP.71hhNdN7FKsaenrO4DJDdAHaE8&pid=Api&P=0"); 
+
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(11);
+}
+
+h1{
+    font-family: cursive;
+}
